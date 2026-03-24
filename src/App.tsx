@@ -120,8 +120,8 @@ const personalInfo = {
 };
 
 const technicalSkills = [
-  { category: "Languages", items: "Java, Python, HTML, CSS, JavaScript" },
-  { category: "Frameworks", items: "Node.js, React, Spring Boot, Maven, React Native" },
+  { category: "Languages", items: "Java, Python" },
+  { category: "Frameworks", items: "Node.js, React, TailwindCSS, Spring Boot, Maven" },
   { category: "Databases", items: "MySQL, PostgreSQL" },
   { category: "Tools & Platforms", items: "Git, Docker, Jira, Visual Studio, Eclipse" },
   { category: "Operating Systems", items: "Windows, Linux (Ubuntu)" },
@@ -129,7 +129,7 @@ const technicalSkills = [
 ];
 
 const otherSkills = [
-  "Government Services", "Health Domain", "Security Hardening", "RBAC", "2FA", "Root Cause Analysis", "Mandarin Chinese", "English"
+  "Government Services", "Health Domain", "Security Hardening", "RBAC", "2FA", "RCA"
 ];
 
 const experience = [
@@ -251,7 +251,7 @@ const FadeIn: React.FC<{ children: React.ReactNode, delay?: number, className?: 
 const navItems = [
   { id: 'home', label: 'Home', icon: Home },
   { id: 'tools', label: 'Tools', icon: Wrench },
-  { id: 'work', label: 'Work', icon: Folder },
+  { id: 'work', label: 'Projects', icon: Folder },
   { id: 'experience', label: 'Experience', icon: Briefcase },
   { id: 'education', label: 'Education', icon: GraduationCap },
 ];
@@ -304,7 +304,7 @@ export default function App() {
         <div className="flex items-center gap-3 p-1 pr-4 rounded-full bg-white/[0.03] border border-white/10 backdrop-blur-md relative">
           {/* Left side: Monogram */}
           <div className="flex items-center justify-center w-7 h-7 rounded-full bg-white text-[#030a16] text-xs font-bold tracking-tighter">
-            YL
+            TYL
           </div>
           {/* Right side: Text + Blinking Cursor */}
           <div className="flex items-center gap-1.5 font-mono text-xs text-white/80">
